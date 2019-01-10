@@ -1,0 +1,663 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BB0CB4ED2142611F00FD20C1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0CB4EC2142611F00FD20C1 /* AppDelegate.swift */; };
+		BB0CB4F22142611F00FD20C1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB0CB4F02142611F00FD20C1 /* Main.storyboard */; };
+		BB0CB4F42142612000FD20C1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BB0CB4F32142612000FD20C1 /* Assets.xcassets */; };
+		BB0CB4F72142612000FD20C1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB0CB4F52142612000FD20C1 /* LaunchScreen.storyboard */; };
+		BB0CB5022142612000FD20C1 /* TopGamesSelectionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0CB5012142612000FD20C1 /* TopGamesSelectionTests.swift */; };
+		BB0CB50D2142612000FD20C1 /* TopGamesSelectionUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0CB50C2142612000FD20C1 /* TopGamesSelectionUITests.swift */; };
+		BB0CB51C214261B400FD20C1 /* TopGamesSelectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0CB51B214261B400FD20C1 /* TopGamesSelectionViewController.swift */; };
+		BB0CB51F214626E100FD20C1 /* GameInterestsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0CB51E214626E100FD20C1 /* GameInterestsCell.swift */; };
+		BB0CB52321465BB200FD20C1 /* GameInterests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0CB52221465BB200FD20C1 /* GameInterests.swift */; };
+		BB0CB526214661B800FD20C1 /* Apikeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0CB525214661B800FD20C1 /* Apikeys.swift */; };
+		BB0CB528214669B800FD20C1 /* HomeNetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0CB527214669B800FD20C1 /* HomeNetworkManager.swift */; };
+		BB0CB52A214779D900FD20C1 /* TopGamesSelectionDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0CB529214779D900FD20C1 /* TopGamesSelectionDataSource.swift */; };
+		BB0CB52D21479CAC00FD20C1 /* UIImageView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0CB52C21479CAC00FD20C1 /* UIImageView+Extension.swift */; };
+		BB0CB52F2147B65700FD20C1 /* DetailedImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0CB52E2147B65700FD20C1 /* DetailedImageViewController.swift */; };
+		BB0CB5312147B99F00FD20C1 /* TopGamesSelectionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0CB5302147B99F00FD20C1 /* TopGamesSelectionDelegate.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BB0CB4FE2142612000FD20C1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BB0CB4E12142611F00FD20C1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BB0CB4E82142611F00FD20C1;
+			remoteInfo = TopGamesSelection;
+		};
+		BB0CB5092142612000FD20C1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BB0CB4E12142611F00FD20C1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BB0CB4E82142611F00FD20C1;
+			remoteInfo = TopGamesSelection;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BB0CB4E92142611F00FD20C1 /* TopGamesSelection.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TopGamesSelection.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB0CB4EC2142611F00FD20C1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BB0CB4F12142611F00FD20C1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BB0CB4F32142612000FD20C1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BB0CB4F62142612000FD20C1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BB0CB4F82142612000FD20C1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BB0CB4FD2142612000FD20C1 /* TopGamesSelectionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TopGamesSelectionTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB0CB5012142612000FD20C1 /* TopGamesSelectionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopGamesSelectionTests.swift; sourceTree = "<group>"; };
+		BB0CB5032142612000FD20C1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BB0CB5082142612000FD20C1 /* TopGamesSelectionUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TopGamesSelectionUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB0CB50C2142612000FD20C1 /* TopGamesSelectionUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopGamesSelectionUITests.swift; sourceTree = "<group>"; };
+		BB0CB50E2142612000FD20C1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BB0CB51B214261B400FD20C1 /* TopGamesSelectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopGamesSelectionViewController.swift; sourceTree = "<group>"; };
+		BB0CB51E214626E100FD20C1 /* GameInterestsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameInterestsCell.swift; sourceTree = "<group>"; };
+		BB0CB52221465BB200FD20C1 /* GameInterests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameInterests.swift; sourceTree = "<group>"; };
+		BB0CB525214661B800FD20C1 /* Apikeys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Apikeys.swift; sourceTree = "<group>"; };
+		BB0CB527214669B800FD20C1 /* HomeNetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeNetworkManager.swift; sourceTree = "<group>"; };
+		BB0CB529214779D900FD20C1 /* TopGamesSelectionDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopGamesSelectionDataSource.swift; sourceTree = "<group>"; };
+		BB0CB52C21479CAC00FD20C1 /* UIImageView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImageView+Extension.swift"; sourceTree = "<group>"; };
+		BB0CB52E2147B65700FD20C1 /* DetailedImageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailedImageViewController.swift; sourceTree = "<group>"; };
+		BB0CB5302147B99F00FD20C1 /* TopGamesSelectionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopGamesSelectionDelegate.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BB0CB4E62142611F00FD20C1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB0CB4FA2142612000FD20C1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB0CB5052142612000FD20C1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BB0CB4E02142611F00FD20C1 = {
+			isa = PBXGroup;
+			children = (
+				BB0CB4EB2142611F00FD20C1 /* TopGamesSelection */,
+				BB0CB5002142612000FD20C1 /* TopGamesSelectionTests */,
+				BB0CB50B2142612000FD20C1 /* TopGamesSelectionUITests */,
+				BB0CB4EA2142611F00FD20C1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BB0CB4EA2142611F00FD20C1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BB0CB4E92142611F00FD20C1 /* TopGamesSelection.app */,
+				BB0CB4FD2142612000FD20C1 /* TopGamesSelectionTests.xctest */,
+				BB0CB5082142612000FD20C1 /* TopGamesSelectionUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BB0CB4EB2142611F00FD20C1 /* TopGamesSelection */ = {
+			isa = PBXGroup;
+			children = (
+				BB0CB52B21479C6B00FD20C1 /* Extensions */,
+				BB0CB52021465B7800FD20C1 /* Models */,
+				BB0CB51D214626B500FD20C1 /* Views */,
+				BB0CB51A2142617500FD20C1 /* ViewController */,
+				BB0CB4EC2142611F00FD20C1 /* AppDelegate.swift */,
+				BB0CB4F32142612000FD20C1 /* Assets.xcassets */,
+				BB0CB4F52142612000FD20C1 /* LaunchScreen.storyboard */,
+				BB0CB4F82142612000FD20C1 /* Info.plist */,
+				BB0CB4F02142611F00FD20C1 /* Main.storyboard */,
+			);
+			path = TopGamesSelection;
+			sourceTree = "<group>";
+		};
+		BB0CB5002142612000FD20C1 /* TopGamesSelectionTests */ = {
+			isa = PBXGroup;
+			children = (
+				BB0CB5012142612000FD20C1 /* TopGamesSelectionTests.swift */,
+				BB0CB5032142612000FD20C1 /* Info.plist */,
+			);
+			path = TopGamesSelectionTests;
+			sourceTree = "<group>";
+		};
+		BB0CB50B2142612000FD20C1 /* TopGamesSelectionUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BB0CB50C2142612000FD20C1 /* TopGamesSelectionUITests.swift */,
+				BB0CB50E2142612000FD20C1 /* Info.plist */,
+			);
+			path = TopGamesSelectionUITests;
+			sourceTree = "<group>";
+		};
+		BB0CB51A2142617500FD20C1 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				BB0CB51B214261B400FD20C1 /* TopGamesSelectionViewController.swift */,
+				BB0CB529214779D900FD20C1 /* TopGamesSelectionDataSource.swift */,
+				BB0CB52E2147B65700FD20C1 /* DetailedImageViewController.swift */,
+				BB0CB5302147B99F00FD20C1 /* TopGamesSelectionDelegate.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		BB0CB51D214626B500FD20C1 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				BB0CB51E214626E100FD20C1 /* GameInterestsCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		BB0CB52021465B7800FD20C1 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				BB0CB5242146618E00FD20C1 /* NetworkManager */,
+				BB0CB52121465B8C00FD20C1 /* DataModel */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		BB0CB52121465B8C00FD20C1 /* DataModel */ = {
+			isa = PBXGroup;
+			children = (
+				BB0CB52221465BB200FD20C1 /* GameInterests.swift */,
+			);
+			path = DataModel;
+			sourceTree = "<group>";
+		};
+		BB0CB5242146618E00FD20C1 /* NetworkManager */ = {
+			isa = PBXGroup;
+			children = (
+				BB0CB525214661B800FD20C1 /* Apikeys.swift */,
+				BB0CB527214669B800FD20C1 /* HomeNetworkManager.swift */,
+			);
+			path = NetworkManager;
+			sourceTree = "<group>";
+		};
+		BB0CB52B21479C6B00FD20C1 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				BB0CB52C21479CAC00FD20C1 /* UIImageView+Extension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BB0CB4E82142611F00FD20C1 /* TopGamesSelection */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BB0CB5112142612000FD20C1 /* Build configuration list for PBXNativeTarget "TopGamesSelection" */;
+			buildPhases = (
+				BB0CB4E52142611F00FD20C1 /* Sources */,
+				BB0CB4E62142611F00FD20C1 /* Frameworks */,
+				BB0CB4E72142611F00FD20C1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TopGamesSelection;
+			productName = TopGamesSelection;
+			productReference = BB0CB4E92142611F00FD20C1 /* TopGamesSelection.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BB0CB4FC2142612000FD20C1 /* TopGamesSelectionTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BB0CB5142142612000FD20C1 /* Build configuration list for PBXNativeTarget "TopGamesSelectionTests" */;
+			buildPhases = (
+				BB0CB4F92142612000FD20C1 /* Sources */,
+				BB0CB4FA2142612000FD20C1 /* Frameworks */,
+				BB0CB4FB2142612000FD20C1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BB0CB4FF2142612000FD20C1 /* PBXTargetDependency */,
+			);
+			name = TopGamesSelectionTests;
+			productName = TopGamesSelectionTests;
+			productReference = BB0CB4FD2142612000FD20C1 /* TopGamesSelectionTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BB0CB5072142612000FD20C1 /* TopGamesSelectionUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BB0CB5172142612000FD20C1 /* Build configuration list for PBXNativeTarget "TopGamesSelectionUITests" */;
+			buildPhases = (
+				BB0CB5042142612000FD20C1 /* Sources */,
+				BB0CB5052142612000FD20C1 /* Frameworks */,
+				BB0CB5062142612000FD20C1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BB0CB50A2142612000FD20C1 /* PBXTargetDependency */,
+			);
+			name = TopGamesSelectionUITests;
+			productName = TopGamesSelectionUITests;
+			productReference = BB0CB5082142612000FD20C1 /* TopGamesSelectionUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BB0CB4E12142611F00FD20C1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "Sadiya Syeda";
+				TargetAttributes = {
+					BB0CB4E82142611F00FD20C1 = {
+						CreatedOnToolsVersion = 9.4;
+					};
+					BB0CB4FC2142612000FD20C1 = {
+						CreatedOnToolsVersion = 9.4;
+						TestTargetID = BB0CB4E82142611F00FD20C1;
+					};
+					BB0CB5072142612000FD20C1 = {
+						CreatedOnToolsVersion = 9.4;
+						TestTargetID = BB0CB4E82142611F00FD20C1;
+					};
+				};
+			};
+			buildConfigurationList = BB0CB4E42142611F00FD20C1 /* Build configuration list for PBXProject "TopGamesSelection" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BB0CB4E02142611F00FD20C1;
+			productRefGroup = BB0CB4EA2142611F00FD20C1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BB0CB4E82142611F00FD20C1 /* TopGamesSelection */,
+				BB0CB4FC2142612000FD20C1 /* TopGamesSelectionTests */,
+				BB0CB5072142612000FD20C1 /* TopGamesSelectionUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BB0CB4E72142611F00FD20C1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB0CB4F72142612000FD20C1 /* LaunchScreen.storyboard in Resources */,
+				BB0CB4F42142612000FD20C1 /* Assets.xcassets in Resources */,
+				BB0CB4F22142611F00FD20C1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB0CB4FB2142612000FD20C1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB0CB5062142612000FD20C1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BB0CB4E52142611F00FD20C1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB0CB526214661B800FD20C1 /* Apikeys.swift in Sources */,
+				BB0CB5312147B99F00FD20C1 /* TopGamesSelectionDelegate.swift in Sources */,
+				BB0CB52F2147B65700FD20C1 /* DetailedImageViewController.swift in Sources */,
+				BB0CB51F214626E100FD20C1 /* GameInterestsCell.swift in Sources */,
+				BB0CB52D21479CAC00FD20C1 /* UIImageView+Extension.swift in Sources */,
+				BB0CB52321465BB200FD20C1 /* GameInterests.swift in Sources */,
+				BB0CB4ED2142611F00FD20C1 /* AppDelegate.swift in Sources */,
+				BB0CB52A214779D900FD20C1 /* TopGamesSelectionDataSource.swift in Sources */,
+				BB0CB51C214261B400FD20C1 /* TopGamesSelectionViewController.swift in Sources */,
+				BB0CB528214669B800FD20C1 /* HomeNetworkManager.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB0CB4F92142612000FD20C1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB0CB5022142612000FD20C1 /* TopGamesSelectionTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB0CB5042142612000FD20C1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB0CB50D2142612000FD20C1 /* TopGamesSelectionUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BB0CB4FF2142612000FD20C1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BB0CB4E82142611F00FD20C1 /* TopGamesSelection */;
+			targetProxy = BB0CB4FE2142612000FD20C1 /* PBXContainerItemProxy */;
+		};
+		BB0CB50A2142612000FD20C1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BB0CB4E82142611F00FD20C1 /* TopGamesSelection */;
+			targetProxy = BB0CB5092142612000FD20C1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BB0CB4F02142611F00FD20C1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BB0CB4F12142611F00FD20C1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BB0CB4F52142612000FD20C1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BB0CB4F62142612000FD20C1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BB0CB50F2142612000FD20C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BB0CB5102142612000FD20C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BB0CB5122142612000FD20C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TopGamesSelection/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.SadiyaApps.TopGamesSelection;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BB0CB5132142612000FD20C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TopGamesSelection/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.SadiyaApps.TopGamesSelection;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BB0CB5152142612000FD20C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TopGamesSelectionTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.SadiyaApps.TopGamesSelectionTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TopGamesSelection.app/TopGamesSelection";
+			};
+			name = Debug;
+		};
+		BB0CB5162142612000FD20C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TopGamesSelectionTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.SadiyaApps.TopGamesSelectionTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TopGamesSelection.app/TopGamesSelection";
+			};
+			name = Release;
+		};
+		BB0CB5182142612000FD20C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TopGamesSelectionUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.SadiyaApps.TopGamesSelectionUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TopGamesSelection;
+			};
+			name = Debug;
+		};
+		BB0CB5192142612000FD20C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TopGamesSelectionUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.SadiyaApps.TopGamesSelectionUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TopGamesSelection;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BB0CB4E42142611F00FD20C1 /* Build configuration list for PBXProject "TopGamesSelection" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB0CB50F2142612000FD20C1 /* Debug */,
+				BB0CB5102142612000FD20C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BB0CB5112142612000FD20C1 /* Build configuration list for PBXNativeTarget "TopGamesSelection" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB0CB5122142612000FD20C1 /* Debug */,
+				BB0CB5132142612000FD20C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BB0CB5142142612000FD20C1 /* Build configuration list for PBXNativeTarget "TopGamesSelectionTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB0CB5152142612000FD20C1 /* Debug */,
+				BB0CB5162142612000FD20C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BB0CB5172142612000FD20C1 /* Build configuration list for PBXNativeTarget "TopGamesSelectionUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB0CB5182142612000FD20C1 /* Debug */,
+				BB0CB5192142612000FD20C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BB0CB4E12142611F00FD20C1 /* Project object */;
+}
