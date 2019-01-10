@@ -28,7 +28,7 @@ class TopGamesSelectionViewController: UIViewController {
         tgDelegate = TopGamesSelectionDelegate(tgController : self)
         gameInterestsCollectionView.dataSource = tgDataSource
         gameInterestsCollectionView.delegate = tgDelegate
-        HomeNetworkManager.shared.fetchGames{(urls) in
+        HomeNetworkManager.shared.fetchGames{ urls in
             self.imageURLS = urls
         }
     }
