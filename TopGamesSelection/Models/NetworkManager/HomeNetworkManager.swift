@@ -10,8 +10,8 @@ import Foundation
 
 class HomeNetworkManager {
     static let shared = HomeNetworkManager()
-    let urlString : String = ApplicationEnvironment.url.rawValue + EndPoint.topGames.rawValue
-    let bodyParameters = [ApiRequestKeys.limit.rawValue : ApiRequestValues.limitValue.rawValue]
+    private let urlString : String = ApplicationEnvironment.url.rawValue + EndPoint.topGames.rawValue
+    private let bodyParameters = [ApiRequestKeys.limit.rawValue : ApiRequestValues.limitValue.rawValue]
 
     func fetchGames(completion : @escaping([String]) -> Void){
         var largeImageURLS : [String] = []
