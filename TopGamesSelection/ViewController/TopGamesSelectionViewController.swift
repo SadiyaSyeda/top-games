@@ -10,12 +10,11 @@ import UIKit
 
 class TopGamesSelectionViewController: UIViewController {
     
-    @IBOutlet weak var gameInterestsCollectionView: UICollectionView!
+    @IBOutlet private weak var gameInterestsCollectionView: UICollectionView!
+    private var tgDataSource : TopGamesSelectionDataSource?
+    private var tgDelegate : TopGamesSelectionDelegate?
     
-    var tgDataSource : TopGamesSelectionDataSource?
-    var tgDelegate : TopGamesSelectionDelegate?
-    
-    var imageURLS : [String] = []{
+    var imageURLS: [String] = [] {
         didSet{
             DispatchQueue.main.async {
                 self.gameInterestsCollectionView.reloadData()
@@ -32,9 +31,5 @@ class TopGamesSelectionViewController: UIViewController {
         HomeNetworkManager.shared.fetchGames{(urls) in
             self.imageURLS = urls
         }
-        
     }
-
-   
-
 }

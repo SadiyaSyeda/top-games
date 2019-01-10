@@ -7,9 +7,9 @@
 
 import UIKit
 
-class TopGamesSelectionDataSource : NSObject{
-    var topGamesViewController : TopGamesSelectionViewController
-    init(topGamesViewController : TopGamesSelectionViewController){
+class TopGamesSelectionDataSource : NSObject {
+    private var topGamesViewController : TopGamesSelectionViewController
+    init(topGamesViewController : TopGamesSelectionViewController) {
         self.topGamesViewController = topGamesViewController
     }
 }
@@ -19,7 +19,7 @@ extension TopGamesSelectionDataSource : UICollectionViewDataSource {
         return 1
     }
     
-    func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int{
+    func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
         return topGamesViewController.imageURLS.count
     }
     
