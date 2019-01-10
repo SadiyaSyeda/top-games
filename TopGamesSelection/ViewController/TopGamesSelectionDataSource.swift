@@ -10,7 +10,7 @@ import UIKit
 class TopGamesSelectionDataSource : NSObject {
     private var topGamesViewController : TopGamesSelectionViewController
     init(topGamesViewController : TopGamesSelectionViewController) {
-        self.topGamesViewController = topGamesViewController
+    self.topGamesViewController = topGamesViewController
     }
 }
 

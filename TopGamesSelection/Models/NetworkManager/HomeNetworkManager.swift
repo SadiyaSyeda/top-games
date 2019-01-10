@@ -43,7 +43,7 @@ class HomeNetworkManager {
                     return
                 }
                 
-                for top in topGames{
+                for top in topGames {
                     guard let largeImageUrls = top.game?.box?.large else{
                         assertionFailure("Couldnt get images")
                         return
@@ -52,7 +52,7 @@ class HomeNetworkManager {
                 }
                 completion(largeImageURLS)
             }
-            catch{
+            catch {
                 print("something went wrong")
             }
         }.resume()
